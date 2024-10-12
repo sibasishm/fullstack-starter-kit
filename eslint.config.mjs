@@ -4,7 +4,6 @@ export default antfu(
 	{
 		type: 'app',
 		typescript: true,
-		react: true,
 		formatters: true,
 		stylistic: {
 			indent: 2,
