@@ -14,7 +14,7 @@ const router = createRouter()
       responses: {
         [HttpStatusCodes.OK]: jsonContent(
           createMessageObjectSchema("API Starter Kit Example"),
-          "API Starter Kit Example Route",
+          "Example Route",
         ),
       },
     }),
